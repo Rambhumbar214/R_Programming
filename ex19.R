@@ -1,0 +1,7 @@
+row_names = c("row1", "row2", "row3", "row4")
+col_names = c("col1", "col2", "col3")
+R <- matrix(c(1:12), nrow = 4, byrow = TRUE, dimnames = list(row_names, col_names))
+print(R)
+print(R[3,2])
+print(R[3,])
+print(R[,2])

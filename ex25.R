@@ -1,0 +1,5 @@
+stud_name<-c("Ram","Siya","Raj","Sham","Ram")
+factor(stud_name)
+factor(stud_name, levels=c("Ram","Siya","Raj","Sham"))
+factor(stud_name, levels=c("Ram","Siya","Raj","Sham"),labels = c("R1","S1","R2","S2"))
+factor(stud_name, levels=c("Ram","Siya","Raj","Sham"),exclude="Ram")
