@@ -1,0 +1,8 @@
+v1 <- c(1,2,3,4)
+cat('using c function',v1)
+v2 <- c(1:5)
+cat('using colon',v2)
+v3 <- seq(1,5,by= 0.5)
+cat(v3)
+v4 <- seq(1,4,length.out=6)
+cat(v4)
